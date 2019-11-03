@@ -5,32 +5,43 @@ body{
 
 .login-card{
     // margin:100px auto;
-    width: 300px;
-    height : 400px;
+    width: 350px;
+    height : 450px;
     background-image: linear-gradient(45deg,black,rgb(194, 59, 59));
+    padding: 0;
+}
+
+.login-header{
+    padding:0;
 }
 
 .login-title{
     text-align: center;
-    margin: 20px 0 0 50px;
+    margin: 30px 0px 0 0px;
     font-weight: 500;
-    font-style: italic;
+    font-style: candara;
     font-family: sans-serif monospace;
-    color:rgb(223, 120, 35);
+    color:rgba(221, 137, 26, 0.884);
+}
+
+#soundzy{
+    color:aqua;
+    margin-bottom: 0px;
+
 }
 
 .login-form{
-    
+    margin: 0 0 0 20px;
     padding: 0 20px;
 }
 
 .username{
     margin-bottom:6px;
-    width:235px;
+    width:250px;
 }
 
 .password{
-    width:235px;
+    width:250px;
 }
 
 .login-container {
@@ -43,15 +54,13 @@ body{
   }
 
   .login-actions{
-    margin-left: 85px;
-    width: 100px;
-    
-    
+    margin-left: 20px;
 }
   .login-button{
       width: 100px;
-      color: aqua;
-      font-weight: 300;
-      font-family: sans-serif monospace;
+      color: rgb(48, 184, 184);
+      font-weight: 400;
+      font-family: sans-serif garamond;
       line-height: 40px;
+      margin-left:100px!important;    
   }
